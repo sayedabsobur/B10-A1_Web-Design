@@ -22,6 +22,7 @@
     padding: 17px 24px;
     border-radius: 5px;
 }
+
 .btn-secondary{
     background-color: black;
     font-size: 20;
@@ -30,6 +31,11 @@
     margin: 32px 80px;
     border-radius: 5px;
     color: #FFFFFF;
+}
+
+.btn-final{
+    background-color: white;
+    padding: 12px 20px;
 }
 
 .section-title{
@@ -46,7 +52,14 @@
     text-align: justify;
     padding: 0px 144px 0px 80px ;
 }
+.text-center{
+    text-align: center;
+}
 
+.text-position{
+    text-align: center;
+    padding: 30px 247px 0 247px;
+}
 /*  header  */
 .header{
     background-image: url(../assets/Hero-bg.png);
@@ -97,10 +110,20 @@ nav ul li{
     width: 240px;
 }
 
+.group-pic{
+    
+}
+
+.video-section{
+    border-radius: 15px;
+    padding: 0 184px 0 180px;
+}
+
 /* Main Styles */
 .main{
     max-width: 1140px;
-    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 /*  Web Styles */
@@ -120,4 +143,17 @@ nav ul li{
 
 .items-description{
     font-weight: bold;
+}
+
+/*  Skills Section Styles */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px 4px rgba(0, 0, 0, 0.25);
 }
