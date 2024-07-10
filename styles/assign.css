@@ -11,13 +11,46 @@
 .dark-2{
     color: #0D1321;
 }
+.dark-1{
+    color: #FFFFFF;
+}
 
 .btn-primary{
     background-color: white;
+    font-weight: 600;
     font-size: 20px;
     padding: 17px 24px;
     border-radius: 5px;
 }
+.btn-secondary{
+    background-color: black;
+    font-size: 20;
+    font-weight: 600;
+    padding: 21px 24px;
+    margin: 32px 80px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+
+}
+
+.section-description{
+    font-size: 16px;
+    color: #0D1321;
+}
+
+/*  header  */
+.header{
+    background-image: url(../assets/Hero-bg.png);
+    margin: 131px 0;
+    background-position: left right;
+}
+
 /*  Nav Styles */
 nav{
     display: flex;
@@ -33,4 +66,46 @@ nav{
 
 nav ul li{
     list-style: none;
+}
+
+/*  Banner Styles */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    margin: 26px 221px 45px 221px;
+}
+.banner-content{
+    max-width: 240px;
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.banner-profile-pic{
+    width: 240px;
+}
+
+/* Main Styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*  Web Styles */
+.web{
+    border-radius: 10px;
+    padding: 100px 276px;
+    text-align: center;
+    margin: 80px 144px;
+    
+    
 }
